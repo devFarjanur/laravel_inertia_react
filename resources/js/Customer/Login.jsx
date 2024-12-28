@@ -1,6 +1,7 @@
+import React from 'react';
 import { Link } from 'react-router-dom';
 
-const AdminLogin = () => {
+const Login = () => {
     return (
         <div className="flex justify-center pt-20">
             <div className="rounded-sm border border-stroke bg-white shadow-default dark:border-strokedark dark:bg-boxdark w-1/2">
@@ -141,4 +142,4 @@ const AdminLogin = () => {
     );
 };
 
-export default AdminLogin;
+export default Login;
