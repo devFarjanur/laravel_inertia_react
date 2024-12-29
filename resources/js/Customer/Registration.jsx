@@ -336,9 +336,9 @@ const Registration = () => {
                                 <div className="mt-6 text-center">
                                     <p>
                                         Already have an account?{' '}
-                                        <Link to="/auth/signin" className="text-primary">
+                                        <a href="/login" className="text-primary">
                                             Sign in
-                                        </Link>
+                                        </a>
                                     </p>
                                 </div>
                             </form>
