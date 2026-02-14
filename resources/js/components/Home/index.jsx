@@ -1,5 +1,5 @@
 import React from "react";
-import LayoutHomeTwo from "../Partials/Layout";
+import LayoutHome from "../Partials/Layout";
 import datas from "../../data/productsTwo.json";
 import SectionStyleFour from "../Helpers/SectionStyleFour";
 import SectionStyleThreeHomeTwo from "../Helpers/SectionStyleThreeHomeTwo";
@@ -7,13 +7,12 @@ import SectionStyleTwo from "../Helpers/SectionStyleTwoHomeTwo";
 import ViewMoreTitle from "../Helpers/ViewMoreTitle";
 import ProductsAds from "../Home/ProductsAds";
 import Banner from "./Banner";
-import CampaignCountDown from "./CampaignCountDown";
 import CategoriesSection from "./CategoriesSection";
 
-export default function HomeTwo() {
+export default function Index() {
     const { products } = datas;
     return (
-        <LayoutHomeTwo>
+        <LayoutHome>
             <Banner className="banner-wrapper mb-[46px]" />
 
             <ViewMoreTitle
@@ -88,6 +87,6 @@ export default function HomeTwo() {
                 seeMoreUrl="/all-products"
                 className="category-products mb-[60px]"
             />
-        </LayoutHomeTwo>
+        </LayoutHome>
     );
 }
