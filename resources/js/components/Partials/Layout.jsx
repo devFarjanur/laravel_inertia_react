@@ -16,7 +16,6 @@ export default function Layout({ children, childrenClasses }) {
                 >
                     {children && children}
                 </div>
-                <DiscountBanner />
                 <Footer />
             </div>
         </>
