@@ -725,7 +725,7 @@ export default function Navbar({ className }) {
                         <div className="flex items-center space-x-2">
                             <div className="become-seller-btn w-[100px] h-[40px]">
                                 <Link to="/login">
-                                    <div className="yellow-btn flex justify-center items-center cursor-pointer">
+                                    <div className="white-btn flex justify-center items-center cursor-pointer">
                                         <div className="flex items-center">
                                             <span className="text-sm font-600">
                                                 Login
@@ -759,7 +759,7 @@ export default function Navbar({ className }) {
                             </div>
                             <div className="become-seller-btn w-[100px] h-[40px]">
                                 <Link to="/register">
-                                    <div className="yellow-btn flex justify-center items-center cursor-pointer">
+                                    <div className="white-btn flex justify-center items-center cursor-pointer">
                                         <div className="flex items-center">
                                             <span className="text-sm font-600">
                                                 Signup

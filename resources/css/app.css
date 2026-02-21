@@ -113,8 +113,8 @@ body {
 }
 
 .container-x {
-    @apply md:px-6 px-2 w-full;
-    max-width: 1216px !important;
+    @apply md:px-8 px-4 w-full;
+    max-width: 1516px !important;
 }
 
 .animate-right-dir {
@@ -142,6 +142,11 @@ body {
 
 .yellow-btn {
     @apply w-full text-[13px] text-qblacktext font-semibold bg-qyellow flex justify-center items-center h-full;
+    line-height: 0;
+}
+
+.white-btn {
+    @apply w-full text-[13px] text-qh2-green font-semibold bg-qh7-white flex justify-center items-center h-full;
     line-height: 0;
 }
 
