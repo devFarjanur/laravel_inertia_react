@@ -4,7 +4,7 @@ import QuickViewIco from "../icons/QuickViewIco";
 import Star from "../icons/Star";
 import ThinLove from "../icons/ThinLove";
 
-export default function ProductCardRowStyleTwo({ className, datas, type }) {
+export default function ProductCardRowStyleOne({ className, datas, type }) {
     return (
         <div
             data-aos="fade-left"

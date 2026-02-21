@@ -1,4 +1,4 @@
-import ProductCardRowStyleTwo from "./Cards/ProductCardRowStyleTwo";
+import ProductCardRowStyleOne from "./Cards/ProductCardRowStyleOne";
 import DataIteration from "./DataIteration";
 import ViewMoreTitle from "./ViewMoreTitle";
 
@@ -16,21 +16,21 @@ export default function SectionStyleFour({
             <div className="item-col">
               <DataIteration datas={products} startLength={0} endLength={4}>
                 {({ datas }) => (
-                  <ProductCardRowStyleTwo key={datas.id} datas={datas} />
+                  <ProductCardRowStyleOne key={datas.id} datas={datas} />
                 )}
               </DataIteration>
             </div>
             <div className="item-col">
               <DataIteration datas={products} startLength={4} endLength={8}>
                 {({ datas }) => (
-                  <ProductCardRowStyleTwo key={datas.id} datas={datas} />
+                  <ProductCardRowStyleOne key={datas.id} datas={datas} />
                 )}
               </DataIteration>
             </div>
             <div className="item-col">
               <DataIteration datas={products} startLength={8} endLength={12}>
                 {({ datas }) => (
-                  <ProductCardRowStyleTwo key={datas.id} datas={datas} />
+                  <ProductCardRowStyleOne key={datas.id} datas={datas} />
                 )}
               </DataIteration>
             </div>
