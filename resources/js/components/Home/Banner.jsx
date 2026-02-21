@@ -11,35 +11,32 @@ export default function Banner({ className }) {
                             className="xl:w-1/2 w-full h-full"
                         >
                             <Link to="/single-product">
-                                <picture>
-                                    <source
-                                        media="(min-width:1025px)"
-                                        srcSet={`${
-                                            import.meta.env.VITE_PUBLIC_URL
-                                        }/assets/images/ban-1.png`}
-                                    />
-                                    <img
-                                        src={`${
-                                            import.meta.env.VITE_PUBLIC_URL
-                                        }/assets/images/ban-1.png`}
-                                        alt="Banner"
-                                        className="w-full max-w-full h-auto object-cover"
-                                    />
-                                </picture>
+                                <img
+                                    src="/assets/images/ban-1.png"
+                                    alt="Banner"
+                                    className="w-full max-w-full h-auto object-cover"
+                                />
                             </Link>
                         </div>
                         <div
                             data-aos="fade-left"
-                            className="w-1/2 flex xl:flex-col flex-row xl:space-y-[30px] h-full"
+                            className="xl:w-1/2 w-full flex xl:flex-col flex-row xl:space-y-[30px] xl:space-x-0 space-x-4 h-full"
                         >
-                            <div className="w-full">
+                            <div className="w-full h-full">
                                 <Link to="/single-product">
                                     <img
-                                        src={`${
-                                            import.meta.env.VITE_PUBLIC_URL
-                                        }/assets/images/ban-1.png`}
+                                        src="/assets/images/ban-2.png"
                                         alt="Banner"
-                                        className="w-full h-full"
+                                        className="w-full h-full object-cover"
+                                    />
+                                </Link>
+                            </div>
+                            <div className="w-full h-full">
+                                <Link to="/single-product">
+                                    <img
+                                        src="/assets/images/ban-2.webp"
+                                        alt="Banner"
+                                        className="w-full h-full object-cover"
                                     />
                                 </Link>
                             </div>

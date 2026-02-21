@@ -18,9 +18,8 @@ export default function ProductCardStyleOne({ datas, type }) {
             <div
                 className="product-card-img w-full h-[300px]"
                 style={{
-                    background: `url(${import.meta.env.VITE_PUBLIC_URL}/assets/images/${
-                        datas.image
-                    }) no-repeat center`,
+                    background: `url(/assets/images/${datas.image}) no-repeat center`,
+                    backgroundSize: "cover",
                 }}
             ></div>
             <div className="product-card-details px-[30px] pb-[30px] relative">
@@ -55,7 +54,7 @@ export default function ProductCardStyleOne({ datas, type }) {
                 </p>
             </div>
             {/* quick-access-btns */}
-            <div className="quick-access-btns flex flex-col space-y-2 absolute group-hover:right-4 -right-10 top-20  transition-all duration-300 ease-in-out">
+            <div className="quick-access-btns flex flex-col space-y-2 absolute group-hover:right-4 -right-10 top-20 transition-all duration-300 ease-in-out">
                 <a href="#">
                     <span className="w-10 h-10 flex justify-center items-center bg-primarygray rounded">
                         <QuickViewIco />
